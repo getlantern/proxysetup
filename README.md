@@ -19,6 +19,8 @@ only allows the following networksetup commands to be run:
 -setautoproxystate
 -getproxybypassdomains
 -setproxybypassdomains
+-help
+-printcommands
 ```
 
 To do so, make root own proxysetup and set the setuid bit to allow anyone to execute
