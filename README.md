@@ -6,7 +6,8 @@ password interactively.
 Since proxysetup is intended primarily for managing proxy settings, it
 only allows the following networksetup commands to be run:
 
--listallnetworkservices
+```
+ -listallnetworkservices
 -getwebproxy
 -setwebproxy
 -setwebproxystate
@@ -18,6 +19,7 @@ only allows the following networksetup commands to be run:
 -setautoproxystate
 -getproxybypassdomains
 -setproxybypassdomains
+```
 
 To do so, make root own proxysetup and set the setuid bit to allow anyone to execute
 it as root.
