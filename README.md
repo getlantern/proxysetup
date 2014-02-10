@@ -7,7 +7,7 @@ Since proxysetup is intended primarily for managing proxy settings, it
 only allows the following networksetup commands to be run:
 
 ```
- -listallnetworkservices
+-listallnetworkservices
 -getwebproxy
 -setwebproxy
 -setwebproxystate
