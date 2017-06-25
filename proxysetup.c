@@ -78,7 +78,8 @@ int main (int argc, char **argv)
         }
         cmd[c++] = '"';
     }
-    *cmd ++ = '\0';
+    // *cmd ++ = '\0';
+    cmd[c++] = '\0';
 
     // Set ourselves as root
     setuid(0);
